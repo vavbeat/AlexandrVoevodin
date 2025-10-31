@@ -5,7 +5,7 @@ const config = {
     short: "Gamified Portfolio of Alexander Voevodin - Data scientist / ML engineer"
   },
   author: "Alexandr Voevodin",
-  email: "Vavbeat22@mail.ru",
+  email: "alexandrevav@yandex.ru",
   social: {
     twitter: "https://x.com/voevodinalex",
     linkedin: "https://www.linkedin.com/in/voevodinalex/",
