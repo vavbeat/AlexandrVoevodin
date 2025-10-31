@@ -11,28 +11,31 @@ import "@splidejs/react-splide/css";
 const PROJECTS = [
   {
     id: 1,
-    name: "AI Dockerfile optimizer",
-    description: `AI-Docker-file-optimizer helps optimize Dockerfiles for smaller, more efficient images. 
-            Simply paste your Dockerfile, and the app analyzes it for best practices and size 
-            optimization tips. It then provides a refactored, optimized version of the Dockerfile. 
-            Deployed on Vercel, it ensures fast and easy access to Dockerfile optimization..`,
-    link: "https://ai-docker-file-optimizer.netlify.app/",
+    title: "Fusion Reactor Control System",
+    description: `Advanced real-time monitoring platform for inertial electrostatic confinement fusion reactors. Features:
+    - Microservices architecture with Docker Compose deployment
+    - Web/mobile interface for remote reactor control (real-time telemetry)
+    - Data streaming pipeline with InfluxDB time-series database
+    - Reactor performance dashboard using Grafana visualization
+    - YAML configuration templates for reproducible plasma profiles
+    - CLI in kubectl style for experiment management`,
+    link: "https://github.com/Abhiz2411/3D-interactive-portfolio",
     images: [
-      "/assets/projects-screenshots/aidockerfileoptimizer/1.png",
-      "/assets/projects-screenshots/aidockerfileoptimizer/2.png",
-      "/assets/projects-screenshots/aidockerfileoptimizer/3.png",
+      "/assets/projects-screenshots/smartparkingassitant/01.jpeg",
+      "/assets/projects-screenshots/smartparkingassitant/03.jpeg",
+      "/assets/projects-screenshots/smartparkingassitant/04.jpeg",
     ],
   },
   {
     id: 2,
-    name: "financeme",
+    title: "financeme",
     description: `This project demonstrates the deployment of a DevOps pipeline for a global banking and
             financial services provider, FinanceMe. The company transitioned from a monolithic 
             architecture to a microservice-based architecture to handle increased traffic and 
             scaling challenges. The project involves automating infrastructure provisioning, build 
             and deployment processes, and continuous monitoring using modern DevOps tools and 
-            AWS services.?`,
-    link: "https://github.com/Abhiz2411/FinanceMe-Devops-Project-01",
+            AWS services.`,
+    link: "https://github.com/Abhiz2411/3D-interactive-portfolio",
     images: [
       "/assets/projects-screenshots/financeme/1.png",
       "/assets/projects-screenshots/financeme/2.png",
@@ -48,10 +51,10 @@ const PROJECTS = [
   },
   {
     id: 3,
-    name: "Portfolio",
+    title: "Portfolio",
     description: `Welcome to my digital playground, where creativity meets code in the
             dopest way possible.`,
-    link: "https://www.abhijitzende.com/",
+    link: "https://github.com/Abhiz2411/3D-interactive-portfolio",
     images: [
       "/assets/projects-screenshots/myportfolio/landing.png",
       "/assets/projects-screenshots/myportfolio/navbar.png",
@@ -61,18 +64,37 @@ const PROJECTS = [
   },
   {
     id: 4,
-    name: "Smart Parking Assistant",
+    title: "Smart Parking Assistant",
     description: `Transform parking with the Smart Parking Assistant, an IoT marvel powered by Arduino 
             and IR sensors to detect and recommend the best spots in real-time. Enjoy a sleek GUI 
             that visualizes availability and an intelligent system for quick, optimal decisions. 
             Built to adapt with customizable hardware and Python-powered software for seamless 
             integration. Say goodbye to parking woes and hello to smarter space utilization!`,
-    link: "https://github.com/Abhiz2411/smart-parking-assistant",
+    link: "https://github.com/Abhiz2411/3D-interactive-portfolio",
     images: [
       "/assets/projects-screenshots/smartparkingassitant/01.jpeg",
       "/assets/projects-screenshots/smartparkingassitant/03.jpeg",
       "/assets/projects-screenshots/smartparkingassitant/04.jpeg",
 
+    ],
+  },
+  {
+    id: 5,
+    title: "Smart Job Tracker",
+    description: `Track your job applications effortlessly with a sleek, dark-themed app that lets you 
+            manage, filter, and visualize your job search. Organize your applications with a 
+            Kanban board, monitor progress through status updates, and store everything securely. 
+            Enjoy seamless access across devices with a responsive design and email reminders for 
+            interviews. A smarter, more intuitive way to stay on top of your job hunt!`,
+    link: "https://github.com/Abhiz2411/3D-interactive-portfolio",
+    images: [
+      "/assets/projects-screenshots/smartjobtracker/01.png",
+      "/assets/projects-screenshots/smartjobtracker/02.png",
+      "/assets/projects-screenshots/smartjobtracker/03.png",
+      "/assets/projects-screenshots/smartjobtracker/04.png",
+      "/assets/projects-screenshots/smartjobtracker/05.png",
+      "/assets/projects-screenshots/smartjobtracker/06.png",
+      "/assets/projects-screenshots/smartjobtracker/07.png",
     ],
   },
 ];
@@ -106,7 +128,7 @@ function Page() {
                     <SplideSlide key={image}>
                       <Image
                         src={image}
-                        alt={`screenshot of "${project.name}`}
+                        alt={`screenshot of "${project.title}`}
                         className="w-[300px] h-[200px] rounded-md bg-zinc-900 "
                         width={300}
                         height={400}
@@ -117,7 +139,7 @@ function Page() {
                 </Splide>
               </div>
               <div className="p-4 text-zinc-300">
-                <h2 className="text-xl">{project.name}</h2>
+                <h2 className="text-xl">{project.title}</h2>
                 <p className="mt-2 text-xs text-zinc-500">
                   {project.description}
                 </p>

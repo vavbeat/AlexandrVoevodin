@@ -21,16 +21,6 @@ const links: Link[] = [
     href: '/#projects',
     thumbnail: '/assets/nav-link-previews/projects.png'
   },
-  // {
-  //   title: 'Skills',
-  //   href: '/skills',
-  //   thumbnail: '/assets/nav-link-previews/skills.png'
-  // },
-  // {
-  //   title: 'Testimonials',
-  //   href: '/testimonials',
-  //   thumbnail: '/assets/nav-link-previews/testimonials.png'
-  // },
   {
     title: 'Blogs',
     href: '/blogs',
@@ -43,4 +33,14 @@ const links: Link[] = [
   }
 ];
 
-export { links };
+const config = {
+  title: "Alexander Voevodin | ML Engineering (Data Analytics Architect)",
+  description: {
+    long: "Gamified portfolio showcasing advanced data systems architecture and machine learning solutions. Expertise in real-time analytics, scalable AI infrastructure, and nuclear fusion data systems.",
+    short:
+      "Gamified Portfolio of Alexander Voevodin - Data scientist / ML engineer", // Updated subtitle
+  },
+  // ...rest of config remains same
+};
+
+export { links, config };

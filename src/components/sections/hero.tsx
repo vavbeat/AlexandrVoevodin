@@ -18,7 +18,10 @@ const HeroSection = () => {
   const { isLoading } = usePreloader();
 
   return (
-    <section id="hero" className={cn("relative w-full h-screen")}>
+    <section
+      id="hero"
+      className={cn("relative w-full h-screen")}
+    >
       <div className="grid md:grid-cols-2">
         <div
           className={cn(
@@ -54,10 +57,6 @@ const HeroSection = () => {
                         {config.author.split(" ")[0]}
                         <br className="md:block hiidden" />
                         {config.author.split(" ")[1]}
-                        {/* PLEASE hello??
-
-                        <br className="md:block hiidden" />
-                        UNMUTE ME 😢😢 */}
                       </h1>
                     </TooltipTrigger>
                     <TooltipContent
@@ -68,15 +67,14 @@ const HeroSection = () => {
                     </TooltipContent>
                   </Tooltip>
                 </BlurIn>
-                {/* <div className="md:block hidden bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0 w-screen h-px animate-fade-right animate-glow" /> */}
                 <BlurIn delay={1.2}>
                   <p
                     className={cn(
-                      "md:self-start md:mt-4 font-thin text-md text-slate-500 dark:text-zinc-400 ml-3",
-                      "cursor-default font-display sm:text-xl md:text-xl whitespace-nowrap bg-clip-text "
+                      "text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600",
+                      "md:self-start md:mt-4 ml-3 animate-pulse"
                     )}
                   >
-                    AI Enthusiast
+                    Data scientist / ML engineer
                   </p>
                 </BlurIn>
               </div>
@@ -88,7 +86,7 @@ const HeroSection = () => {
                   target="_blank"
                   className="flex-1"
                 >
-                  <BoxReveal delay={2} width="100%" >
+                  <BoxReveal delay={2} width="100%">
                     <Button className="flex items-center gap-2 w-full">
                       <File size={24} />
                       <p>Resume</p>

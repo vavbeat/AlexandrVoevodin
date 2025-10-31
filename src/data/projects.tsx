@@ -382,7 +382,7 @@ const projects: Project[] = [
   //         <TypographyH3 className="my-4 mt-8">Contests </TypographyH3>
   //         <p className="font-mono mb-2">
   //           Organize or participate in coding competitions. Successfully used to
-  //           host three contests during college.
+  //           host three three contests during college.
   //         </p>
   //         <SlideShow images={[`${BASE_PATH}/codingducks/contests.png`]} />
   //         <TypographyH3 className="my-4 mt-8">Playground </TypographyH3>
@@ -434,20 +434,20 @@ const projects: Project[] = [
   //       <div>
   //         <TypographyP className="font-mono ">
   //           CouponLuxury is your go-to destination for snagging the best deals
-  //           without lifting a finger. Whether you&apos;re hunting for the latest
+  //           without lifting a finger. Whether you're hunting for the latest
   //           discounts or trying to save a buck at your favorite stores,
-  //           CouponLuxury&apos;s got you covered.
+  //           CouponLuxury's got you covered.
   //         </TypographyP>
   //         <ProjectsLinks live={this.live} repo={this.github} />
   //         <p className="font-mono mb-2 mt-4">
-  //           As soon as you land, boom! You&apos;re greeted with the freshest
-  //           coupons and top-tier deals that&apos;ll make your wallet happy.
+  //           As soon as you land, boom! You're greeted with the freshest
+  //           coupons and top-tier deals that'll make your wallet happy.
   //         </p>
   //         <SlideShow images={[`${BASE_PATH}/couponluxury/landing.png`]} />
   //         <TypographyH3 className="my-4 ">Stores</TypographyH3>
   //         <p className="font-mono mb-2">
   //           Dive into a comprehensive list of stores, each packed with exclusive
-  //           deals and discounts. It&apos;s like having a VIP pass to every sale
+  //           deals and discounts. It's like having a VIP pass to every sale
   //           in town.
   //         </p>
   //         <SlideShow
@@ -459,7 +459,7 @@ const projects: Project[] = [
   //         <TypographyH3 className="my-4 mt-8">Categories</TypographyH3>
 
   //         <p className="font-mono mb-2">
-  //           Whatever you&apos;re into—fashion, tech, food—you&apos;ll find it
+  //           Whatever you're into—fashion, tech, food—you'll find it
   //           neatly organized here. No more endless scrolling; just pick a
   //           category and get the best offers instantly.
   //         </p>
@@ -468,7 +468,7 @@ const projects: Project[] = [
   //         <p className="font-mono mb-2">
   //           Powered by Vue.js, this bad boy allows us to keep the content
   //           dynamic and up-to-date. From flash sales to limited-time offers, my
-  //           CMS ensures everything&apos;s live and relevant.
+  //           CMS ensures everything's live and relevant.
   //         </p>
   //         <SlideShow
   //           images={[
@@ -477,12 +477,12 @@ const projects: Project[] = [
   //           ]}
   //         />
   //         <p className="font-mono mb-2 mt-5">
-  //           Plus, I&apos;ve sprinkled in some extra magic like personalized
+  //           Plus, I've sprinkled in some extra magic like personalized
   //           deal recommendations, user-friendly search features, and a sleek,
   //           responsive design that works like a charm on any device.
   //         </p>
   //         <p className="font-mono mb-2">
-  //           CouponLuxury isn&apos;t just a website; it&apos;s your personal deal-hunting
+  //           CouponLuxury isn't just a website; it's your personal deal-hunting
   //           assistant, ensuring you never miss out on a bargain!
   //         </p>
   //         {/* <TypographyP className="my-4 mt-8">
@@ -521,7 +521,7 @@ const projects: Project[] = [
   //           The Booking Desk is your ultimate travel consultation hub, designed
   //           to turn your wanderlust dreams into reality. With a focus on smooth
   //           and visually captivating animations, navigating the site feels like
-  //           a breeze—it&apos;s almost as if the destinations are calling you.
+  //           a breeze—it's almost as if the destinations are calling you.
   //         </TypographyP>
   //         <ProjectsLinks live={this.live} repo={this.github} />
   //         <p className="font-mono mb-2 mt-8">
@@ -532,7 +532,7 @@ const projects: Project[] = [
   //         <TypographyH3 className="my-4 mt-8">Blogs</TypographyH3>
   //         <p className="font-mono mb-2">
   //           Dive into the curated articles written by travel experts. Whether
-  //           you&apos;re looking for hidden gems or travel hacks, our blog section has
+  //           you're looking for hidden gems or travel hacks, our blog section has
   //           you covered.
   //         </p>
   //         <SlideShow
@@ -544,10 +544,10 @@ const projects: Project[] = [
   //         <TypographyH3 className="my-4 mt-8">Sanity CMS</TypographyH3>
 
   //         <p className="font-mono mb-2">
-  //           Keeping everything fresh and up-to-date, I&apos;ve integrated Sanity CMS
-  //           to manage all the content with ease, ensuring you always get the
+  //           Keeping everything fresh and up-to-date, I've integrated Sanity CMS
+  //           to manage all the content with with ease, ensuring you always get the
   //           latest and greatest information.
-  //         </p>
+  //         </TypographyP>
   //         <SlideShow
   //           images={[
   //             `${BASE_PATH}/the-booking-desk/cms-1.png`,
@@ -555,10 +555,10 @@ const projects: Project[] = [
   //           ]}
   //         />
   //         <p className="font-mono mb-2 my-8">
-  //           With a stunning 100% score on Lighthouse, The Booking Desk isn&apos;t
-  //           just beautiful—it&apos;s built to perform. Whether you&apos;re planning your
+  //           With a stunning 100% score on Lighthouse, The Booking Desk isn't
+  //           just beautiful—it's built to perform. Whether you're planning your
   //           next adventure or just daydreaming, our site delivers a top-notch
-  //           experience that&apos;s both informative and enjoyable.
+  //           experience that's both informative and enjoyable.
   //         </p>
   //       </div>
   //     );
@@ -598,7 +598,7 @@ const projects: Project[] = [
   //         <p className="font-mono mb-2">
   //           Did you see that 3D keyboard modal? Yeah! I made that. That
   //           interactive keyboard is being rendered in 3D on a webpage 🤯, and
-  //           pressing each keycap reveals a skill in a goofy way. It&apos;s like
+  //           pressing each keycap reveals a skill in a goofy way. It's like
   //           typing, but make it art.
   //         </p>
   //         <SlideShow
@@ -624,7 +624,7 @@ const projects: Project[] = [
   //           ]}
   //         />
   //         <p className="font-mono mb-2 mt-8 text-center">
-  //           This site&apos;s not just a portfolio — it&apos;s a whole vibe.
+  //           This site's not just a portfolio — it's a whole vibe.
   //         </p>
   //       </div>
   //     );
@@ -647,8 +647,8 @@ const projects: Project[] = [
   //       <div>
   //         <TypographyP className="font-mono ">
   //           Ghostchat is your go-to spot for sending anonymous messages without
-  //           leaving a trace. Powered by Supabase, it&apos;s all about keeping things
-  //           low-key and secure. Whether you&apos;re sharing secrets, giving feedback,
+  //           leaving a trace. Powered by Supabase, it's all about keeping things
+  //           low-key and secure. Whether you're sharing secrets, giving feedback,
   //           or just having some fun, Ghostchat ensures your identity stays
   //           hidden, while your voice is heard. Say what you want, without the
   //           worry.
@@ -690,7 +690,7 @@ const projects: Project[] = [
   //           and enhance the experience of accessing academic results. It served
   //           as a powerful proxy between the JNTUA university results website and
   //           its users, offering a range of features that made result analysis
-  //           faster and more efficient. Here&apos;s what made it stand out:
+  //           faster and more efficient. Here's what made it stand out:
   //         </TypographyP>
   //         <ProjectsLinks live={this.live} repo={this.github} />
   //         <SlideShow images={[`${BASE_PATH}/jra/1.png`]} />
@@ -769,128 +769,139 @@ const projects: Project[] = [
   // },
 
   // +
-  { // 01. AI Docker file optimizer project
-    id: "aidockerfileoptimizer",
-    category: "AI and DevOps",
-    title: "AI Dockerfile Optimizer",
-    src: "/assets/projects-screenshots/aidockerfileoptimizer/2.png",
-    screenshots: ["1.png", "2.png", "3.png"],
-    live: "https://ai-docker-file-optimizer.netlify.app/",
-    github:"https://github.com/Abhiz2411/AI-Docker-file-optimizer",
+  { // 01. MedSystemML - Medical AI System
+    id: "medsystemmltherapy",
+    category: "Healthcare AI",
+    title: "MedSystemML - Медицинская система с ИИ-ассистентом",
+    src: "/assets/projects-screenshots/medsystemmltherapy/main.jpg",
+    screenshots: ["main.jpg", "screenshot1.png", "screenshot2.png", "screenshot3.png", "screenshot4.png", "screenshot5.png"],
+    live: "https://github.com/vavbeat/Med_System_ML_therapy00",
+    github:"https://github.com/vavbeat/Med_System_ML_therapy00",
     skills: {
-      frontend: [PROJECT_SKILLS.js, PROJECT_SKILLS.next, PROJECT_SKILLS.tailwind, PROJECT_SKILLS.vite],
-      backend: [PROJECT_SKILLS.openai,PROJECT_SKILLS.netlify],
+      frontend: [PROJECT_SKILLS.ts, PROJECT_SKILLS.react, PROJECT_SKILLS.tailwind, PROJECT_SKILLS.shadcn, PROJECT_SKILLS.vite],
+      backend: [PROJECT_SKILLS.node],
     },
     get content() {
       return (
         <div>
           <TypographyP className="font-mono ">
-            AI-Docker-file-optimizer helps optimize Dockerfiles for smaller, more efficient images. 
-            Simply paste your Dockerfile, and the app analyzes it for best practices and size 
-            optimization tips. It then provides a refactored, optimized version of the Dockerfile. 
-            Deployed on Vercel, it ensures fast and easy access to Dockerfile optimization.
+            MedSystemML - это современная платформа для реабилитологов с интегрированным ИИ-ассистентом, 
+            предназначенная для улучшения качества медицинского обслуживания и автоматизации рабочих 
+            процессов в медицинских учреждениях. Система включает управление пациентами, планирование 
+            приемов, 3D визуализацию анатомии человека и ИИ-консультации.
           </TypographyP>
           <ProjectsLinks live={this.live} repo={this.github} />
+          <TypographyH3 className="my-4 mt-8">Основные функции</TypographyH3>
+          <ul className="list-disc ml-6">
+            <li className="font-mono">🤖 ИИ-ассистент для медицинских консультаций</li>
+            <li className="font-mono">👥 Управление пациентами и их данными</li>
+            <li className="font-mono">📅 Система планирования и календарь приемов</li>
+            <li className="font-mono">🗺️ 3D визуализация анатомии человека</li>
+            <li className="font-mono">📊 Аналитика и отчетность</li>
+            <li className="font-mono">📱 Адаптивный интерфейс для всех устройств</li>
+          </ul>
+          <TypographyH3 className="my-4 mt-8">Технологии</TypographyH3>
+          <ul className="list-disc ml-6">
+            <li className="font-mono">React 18, TypeScript для фронтенда</li>
+            <li className="font-mono">Vite для сборки проекта</li>
+            <li className="font-mono">shadcn-ui, Radix UI для UI компонентов</li>
+            <li className="font-mono">Tailwind CSS для стилизации</li>
+            <li className="font-mono">React Three Fiber, Three.js для 3D графики</li>
+            <li className="font-mono">React Router DOM для маршрутизации</li>
+            <li className="font-mono">TanStack Query для управления состоянием</li>
+          </ul>
           <SlideShow
             images={[
-              `${BASE_PATH}/aidockerfileoptimizer/1.png`,
-              `${BASE_PATH}/aidockerfileoptimizer/2.png`,
-              `${BASE_PATH}/aidockerfileoptimizer/3.png`,
+              `${BASE_PATH}/medsystemmltherapy/main.jpg`,
+              `${BASE_PATH}/medsystemmltherapy/screenshot1.png`,
+              `${BASE_PATH}/medsystemmltherapy/screenshot2.png`,
+              `${BASE_PATH}/medsystemmltherapy/screenshot3.png`,
+              `${BASE_PATH}/medsystemmltherapy/screenshot4.png`,
+              `${BASE_PATH}/medsystemmltherapy/screenshot5.png`,
             ]}
           />
         </div>
       );
     },
   },
-  { // 02. FinanceMe project
-    id: "financeme",
-    category: "DevOps in Banking and Finance",
-    title: "FinanceMe: Complete DevOps Capstone Project",
-    src: "/assets/projects-screenshots/financeme/1.png",
-    screenshots: ["/assets/projects-screenshots/financeme/1.png"],
+  { // 02. Nuclear Reactor Control System
+    id: "nuclearreactorcontrol",
+    category: "Nuclear Engineering",
+    title: "Система управления термоядерным реактором",
+    src: "/assets/projects-screenshots/nuclear_01.png",
+    screenshots: ["nuclear_01.png", "nuclear_02.png", "nuclear_03.png", "nuclear_04.png", "nuclear_05.png", "nuclear_06.png", "nuclear_07.png", "nuclear_08.png"],
     skills: {
       frontend: [
-        PROJECT_SKILLS.html,
-        PROJECT_SKILLS.css,
         PROJECT_SKILLS.js,
-        PROJECT_SKILLS.bootstrap,
+        PROJECT_SKILLS.vite,
       ],
       backend: [
-        PROJECT_SKILLS.java,
-        PROJECT_SKILLS.maven,
-        PROJECT_SKILLS.postgres,
+        PROJECT_SKILLS.node,
       ],
     },
-    live: "https://github.com/Abhiz2411/FinanceMe-Devops-Project-01",
-    github: "https://github.com/Abhiz2411/FinanceMe-Devops-Project-01",
+    live: "https://github.com/vavbeat/nuclear-reactor-control-system",
+    github: "https://github.com/vavbeat/nuclear-reactor-control-system",
     get content() {
       return (
         <div>
           <TypographyP className="font-mono text-2xl text-center">
-            FinanceMe: Complete DevOps Capstone Project
+            Открытая Система Управления Инерциальным Электростатическим Термоядерным Реактором
           </TypographyP>
           <TypographyP className="font-mono ">
-            This project demonstrates the deployment of a DevOps pipeline for a global banking and
-            financial services provider, FinanceMe. The company transitioned from a monolithic 
-            architecture to a microservice-based architecture to handle increased traffic and 
-            scaling challenges. The project involves automating infrastructure provisioning, build 
-            and deployment processes, and continuous monitoring using modern DevOps tools and 
-            AWS services.?
+            Инновационная открытая система управления и мониторинга компактного термоядерного реактора, 
+            использующего принцип инерциального электростатического удержания плазмы (IEC). Система демонстрирует 
+            практическую реализацию контролируемого термоядерного синтеза в лабораторных условиях с достижением 
+            нейтронного выхода порядка 10⁶-10⁸ нейтронов в секунду.
           </TypographyP>
           <ProjectsLinks live={this.live} repo={this.github} />
-          <TypographyH3 className="my-4 mt-8">Architecture </TypographyH3>
+          <TypographyH3 className="my-4 mt-8">Принцип работы IEC-реактора</TypographyH3>
           <p className="font-mono mb-2">
-            The project is divided into three main phases:
-            1.Automating Infrastructure Provisioning
-            2.Build and Deployment Automation
-            3.Continuous Monitoring
+            Инерциальный электростатический реактор работает на основе создания сферически-симметричного 
+            электрического поля, ускоряющего ионы дейтерия к центральной области. При столкновениях ионов 
+            происходит термоядерная реакция: D + D → ³He (0.82 MeV) + n (2.45 MeV).
           </p>
           <SlideShow
             images={[
-              `${BASE_PATH}/financeme/1.png`,
-              `${BASE_PATH}/financeme/2.png`,
+              `${BASE_PATH}/nuclear_01.png`,
+              `${BASE_PATH}/nuclear_02.png`,
             ]}
           />
-          <TypographyH3 className="my-4 mt-8">Automating Infrastructure Provisioning</TypographyH3>
+          <TypographyH3 className="my-4 mt-8">Физические подсистемы</TypographyH3>
           <p className="font-mono mb-2">
-          Terraform is used to create 4 AWS EC2 instances:
-            Jenkins Master Node (for CI/CD pipeline management)
-            Build Server (for application and Docker image builds)
-            Production Server (for deploying Dockerized applications)
-            Monitoring Server (for continuous monitoring of Build and Prod servers)
+            Система сверхвысокого вакуума (турбомолекулярные насосы Pfeiffer), высоковольтная система 
+            питания (Spellman PTV 0-50кВ), система газоснабжения дейтерием, диагностическая система 
+            нейтронного излучения с временным разрешением 1 мкс.
           </p>
           <SlideShow
             images={[
-              `${BASE_PATH}/financeme/4_A.png`,
-              `${BASE_PATH}/financeme/4.png`,
+              `${BASE_PATH}/nuclear_03.png`,
+              `${BASE_PATH}/nuclear_04.png`,
             ]}
           />
-          <TypographyH3 className="my-4 mt-8">Build and Deployment Automation</TypographyH3>
+          <TypographyH3 className="my-4 mt-8">Архитектура управления</TypographyH3>
 
           <p className="font-mono mb-2">
-          Jenkins is configured for a CI/CD pipeline:
-            Jenkins Master Node is responsible for pipeline orchestration.
-            Build Server is configured as a Jenkins Slave Node to handle application builds and Docker image creation.
-            Ansible is used for automating deployment to the Prod server, where the application is deployed using an Ansible client-server model.
+            Распределенная микросервисная архитектура с конечным автоматом состояний (FSM) для безопасной 
+            последовательности операций. Центральный контроллер Maestro управляет подсистемами: hv (высоковольтное 
+            питание), pfturbo (турбонасосы), gauge (мониторинг вакуума), mfc (регулирование газа), counter (счет нейтронов).
           </p>
           <SlideShow
             images={[
-              `${BASE_PATH}/financeme/5.png`,
-              `${BASE_PATH}/financeme/6.png`,
-              `${BASE_PATH}/financeme/7.png`,
+              `${BASE_PATH}/nuclear_05.png`,
+              `${BASE_PATH}/nuclear_06.png`,
+              `${BASE_PATH}/nuclear_07.png`,
             ]}
           />
-          <TypographyH3 className="my-4 mt-8">Continuous Monitoring </TypographyH3>
+          <TypographyH3 className="my-4 mt-8">Автоматизация процесса</TypographyH3>
           <p className="font-mono mb-2">
-          Prometheus and Grafana are used for real-time monitoring:
-            Node Exporter is installed on both Build and Prod servers to collect server metrics (CPU, Disk Space, Memory Utilization).
-            Grafana Dashboard is created to visualize these metrics for continuous monitoring.
+            Полностью автоматизированный алгоритм запуска реактора с 10 этапами: подготовка профиля, 
+            раскрутка турбонасоса, откачка до рабочего вакуума, плавный подъем напряжения, включение 
+            подачи дейтерия. Время запуска: 5-15 минут, автоматизация: 100%.
           </p>
           <SlideShow images={[
-                `${BASE_PATH}/financeme/3.png`,
-                `${BASE_PATH}/financeme/8.png`,
-                `${BASE_PATH}/financeme/9.png`,
-                `${BASE_PATH}/financeme/10.png`,
+                `${BASE_PATH}/nuclear_03.png`,
+                `${BASE_PATH}/nuclear_07.png`,
+                `${BASE_PATH}/nuclear_08.png`,
             ]} />
         </div>
       );
@@ -930,7 +941,7 @@ const projects: Project[] = [
           <p className="font-mono mb-2">
             Did you see that 3D keyboard modal? Yeah! I made that. That
             interactive keyboard is being rendered in 3D on a webpage 🤯, and
-            pressing each keycap reveals a skill in a goofy way. It&apos;s like
+            pressing each keycap reveals a skill in a goofy way. It's like
             typing, but make it art.
           </p>
           <SlideShow
@@ -956,7 +967,7 @@ const projects: Project[] = [
             ]}
           />
           <p className="font-mono mb-2 mt-8 text-center">
-            This site&apos;s not just a portfolio — it&apos;s a whole vibe.
+            This site's not just a portfolio — it's a whole vibe.
           </p>
         </div>
       );
@@ -1053,7 +1064,7 @@ const projects: Project[] = [
             Step into the digital world of Savinder Puri, the beloved DevOps guru and Spiritual 
             Alchemist, with this responsive portfolio website. 🌐✨ Explore his inspiring journey, 
             milestones, and life-changing services blending tech and spirituality. Built with 
-            modern tools like React and TypeScript, it’s a heartfelt tribute to a mentor who 
+            modern tools like React and TypeScript, it's a heartfelt tribute to a mentor who 
             transforms lives. 💻🕊️ Crafted with ❤️ by Abhijit Zende! 🚀
           </TypographyP>
           <ProjectsLinks live={this.live} repo={this.github} />
