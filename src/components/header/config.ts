@@ -34,11 +34,11 @@ const links: Link[] = [
 ];
 
 const config = {
-  title: "Alexander Voevodin | ML Engineering (Data Analytics Architect)",
+  title: "Александр Воеводин | ML Engineering (Data Analytics Architect)",
   description: {
     long: "Gamified portfolio showcasing advanced data systems architecture and machine learning solutions. Expertise in real-time analytics, scalable AI infrastructure, and nuclear fusion data systems.",
     short:
-      "Gamified Portfolio of Alexander Voevodin - Data scientist / ML engineer", // Updated subtitle
+      "Gamified Portfolio of Александр Воеводин - Data scientist / ML engineer", // Updated subtitle
   },
   // ...rest of config remains same
 };

@@ -2,13 +2,11 @@
 
 # 🚀 Portfolio Website
 
-Welcome to the repository for Alexander Voevodin's personal portfolio website! 🎉 This project showcases advanced data systems architecture and machine learning solutions with expertise in real-time analytics, scalable AI infrastructure, and nuclear fusion data systems.
+Welcome to the repository for Александр Воеводин's personal portfolio website! 🎉 This project showcases advanced data systems architecture and machine learning solutions with expertise in real-time analytics, scalable AI infrastructure, and nuclear fusion data systems.
 
-### Live preview: [Portfolio Website](https://vavbeat.github.io/AlexandrVoevodin/)
 
 ![Preview](https://github.com/vavbeat/AlexandrVoevodin/blob/main/public/assets/preview_video.gif?raw=true)
 
-https://github.com/vavbeat/AlexandrVoevodin/blob/main/preview_video.mp4
 
 This project is a professional portfolio showcasing ML engineering and data analytics capabilities.
 
@@ -49,7 +47,7 @@ The portfolio website is built using the following tools and technologies:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/vavbeat/AlexandrVoevodin.git
+   git clone git@github.com:vavbeat/AlexandrVoevodin.git
    ```
 
 2. Navigate to the project directory:
@@ -87,7 +85,7 @@ This project showcases ML engineering expertise and is designed to demonstrate r
 
 ## 💖 About the Developer
 
-Alexander Voevodin - ML Engineering (Data Analytics Architect)
+Александр Воеводин - ML Engineering (Data Analytics Architect)
 Specialized in real-time analytics, scalable AI infrastructure, and nuclear fusion data systems.
 
 ## 📬 Contact
@@ -95,7 +93,6 @@ Specialized in real-time analytics, scalable AI infrastructure, and nuclear fusi
 Feel free to reach out for collaboration, feedback, or just to say hi! 😊
 
 - **Email:** alexandrevav@yandex.ru
-- **LinkedIn:** [Alexander Voevodin](https://www.linkedin.com/in/voevodinalex/)
 - **GitHub:** [vavbeat](https://github.com/vavbeat)
 - **Telegram:** [@voevodinalex](https://t.me/voevodinalex)
 
