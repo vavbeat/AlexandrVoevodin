@@ -19,7 +19,7 @@ const PROJECTS = [
     - Reactor performance dashboard using Grafana visualization
     - YAML configuration templates for reproducible plasma profiles
     - CLI in kubectl style for experiment management`,
-    link: "https://github.com/Abhiz2411/3D-interactive-portfolio",
+    link: "https://github.com/vavbeat/AlexandrVoevodin",
     images: [
       "/assets/projects-screenshots/smartparkingassitant/01.jpeg",
       "/assets/projects-screenshots/smartparkingassitant/03.jpeg",
@@ -35,7 +35,7 @@ const PROJECTS = [
             scaling challenges. The project involves automating infrastructure provisioning, build 
             and deployment processes, and continuous monitoring using modern DevOps tools and 
             AWS services.`,
-    link: "https://github.com/Abhiz2411/3D-interactive-portfolio",
+    link: "https://github.com/vavbeat/AlexandrVoevodin",
     images: [
       "/assets/projects-screenshots/financeme/1.png",
       "/assets/projects-screenshots/financeme/2.png",
@@ -54,7 +54,7 @@ const PROJECTS = [
     title: "Portfolio",
     description: `Welcome to my digital playground, where creativity meets code in the
             dopest way possible.`,
-    link: "https://github.com/Abhiz2411/3D-interactive-portfolio",
+    link: "https://github.com/vavbeat/AlexandrVoevodin",
     images: [
       "/assets/projects-screenshots/myportfolio/landing.png",
       "/assets/projects-screenshots/myportfolio/navbar.png",
@@ -70,7 +70,7 @@ const PROJECTS = [
             that visualizes availability and an intelligent system for quick, optimal decisions. 
             Built to adapt with customizable hardware and Python-powered software for seamless 
             integration. Say goodbye to parking woes and hello to smarter space utilization!`,
-    link: "https://github.com/Abhiz2411/3D-interactive-portfolio",
+    link: "https://github.com/vavbeat/AlexandrVoevodin",
     images: [
       "/assets/projects-screenshots/smartparkingassitant/01.jpeg",
       "/assets/projects-screenshots/smartparkingassitant/03.jpeg",
@@ -86,7 +86,7 @@ const PROJECTS = [
             Kanban board, monitor progress through status updates, and store everything securely. 
             Enjoy seamless access across devices with a responsive design and email reminders for 
             interviews. A smarter, more intuitive way to stay on top of your job hunt!`,
-    link: "https://github.com/Abhiz2411/3D-interactive-portfolio",
+    link: "https://github.com/vavbeat/AlexandrVoevodin",
     images: [
       "/assets/projects-screenshots/smartjobtracker/01.png",
       "/assets/projects-screenshots/smartjobtracker/02.png",
